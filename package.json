@@ -1,0 +1,16 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jijraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "path": "^0.12.7",
+    "react": "^0.14.3"
+  }
+}
