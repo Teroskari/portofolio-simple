@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>Julius Rajala</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="styles.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans|Fanwood+Text' rel='stylesheet' type='text/css'>
@@ -9,49 +12,65 @@
 <body>
 <div id="all">
   <div id = "container">
-  <!-- <div id = "nav">
-  <ul class="navi">
-    <li class = "naviLink"><a href="#">#</a></li>
-    <li class = "naviLink"><a href="#">Projects</a></li>
-    <li class = "naviLink"><a href="#">Contact</a></li>
-  </ul>
-  </div> -->
-  <div id = "firstBlock" class = "block">
-
-  </div>
-
-  <div id = "footer">
-      
+    <div id="firstBlock" class="block">
+      <div class="projects">
+        <div class="projectContainer" id="project1">
+          <div class="projectPart">
+            <img src="images/bike.jpg" style="width:100%;"/>
+          </div>
+          <div class="projectPart">
+            <h1>Busses of Turku</h1>
+            <p>Description of a project comes here. This project is project number one. Done using this and this and this thing. I made it for this and that and there.</p>
+          </div>
+          <div>
+          
+          </div>
+        </div>
+        <div class="projectContainer" id="project2">Project 2</div>
+        <div class="projectContainer" id="project3">Project 3</div>
+      </div>
+    </div>
+    <div id = "footer">
       <div class = "content">
         <p>Hey, I'm <span id="name">Julius Rajala</span>. A Finnish software developer in training. This webpage is a simple portofolio to display a few of my projects. Check them out in the slider above, or get in touch with me.</p>
       </div>
-    <div id="contacts">
-    <div id="contactSlot">
-      <div class="someSlot">
-      <a href="https://fi.linkedin.com/in/juliusrajala">
-      <img class="some" src="/images/icons/linkedin.png">
-      </a>
-      </div>
-      <div class="someSlot">
-      <a href="http://github.com/juliusrajala">
-      <img class="some" src="/images/icons/github.png">
-      </a>
-      </div>
-      <div class="someSlot">
-      <a href="http://twitter.com/rajalajulius/">
-      <img class="some" src="/images/icons/twitter.png">
-      </a>
-      </div>
-      <div class="someSlot">
-      <a href="juliusrajala@gmail.com">
-      <img class="some" src="/images/icons/email.png">
-      </a>
-      </div>
-      </div>
-    </div>
-  </div>
 
-  </div>
-</div>
+      <div id="contacts">
+        <div id="contactSlot">
+
+          <div class="someSlot">
+            <a href="https://fi.linkedin.com/in/juliusrajala">
+              <img class="some" src="/images/icons/lin.png">
+            </a>
+          </div>
+        
+          <div class="someSlot">
+            <a href="http://github.com/juliusrajala">
+              <img class="some" src="/images/icons/git.png">
+            </a>
+          </div>
+        
+          <div class="someSlot">
+            <a href="http://twitter.com/rajalajulius/">
+              <img class="some" src="/images/icons/tweet.png">
+            </a>
+          </div>
+        
+          <div class="someSlot">
+            <a href="juliusrajala@gmail.com">
+              <img class="some" src="/images/icons/mail.png">
+            </a>
+          </div>
+        </div> <!-- contactSlot -->
+      </div> <!-- contacts -->
+    </div> <!-- footer -->
+  </div> <!-- container -->
+</div> <!-- all -->
+
+<!-- Scripts below -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

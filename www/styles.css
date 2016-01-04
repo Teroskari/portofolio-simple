@@ -21,7 +21,7 @@ html{
 
 #container{
   width: 100%;
-  height: 100%;
+  height: 96%;
   position: static;
   max-width: 900px;
   margin-right: auto;
@@ -32,15 +32,42 @@ html{
   box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.35);
 }
 
+.projectPart{
+  margin-top: 10%;  
+  width: 50%;
+  float: left;
+}
+
+
+.projects{
+  width: 90%;
+  height: 100%;
+  margin:auto;
+}
+
 .block{
   width: 100%;
   height: 50%;
+  margin-right: auto;
+  margin-left: auto;
   position: static;
   display: block;
   float: left;
--webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
--moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+  box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+}
+#project1{
+  margin-left:auto;
+  margin-right: auto;
+  width: 60%;
+  position: static;
+}
+#project2{
+  background-color: blue;
+}
+#project3{
+  background-color: green;
 }
 .navi{
   position: fixed;
@@ -60,13 +87,31 @@ p{
   font-size: 1.5em;
 }
 
+.projectContainer p{
+  font-size: 1em;
+  color: white;
+  margin: 20px;
+  font-family: 'Quattrocento', sans-serif;
+  /*width: 100%;
+  height: 40vh;
+  margin-top: 20px;*/
+}
+
 .navilink a{
   color: white;
 }
 
 h1{
-  font-family: 'Quattrocento', serif;
+  font-family: 'Quattrocento', sans-serif;
   text-align: center;
+  color: yellow;
+}
+
+.projectContainer h1{
+  font-family: 'Quattrocento', sans-serif;
+  margin-left: 20px;
+  text-align: left;
+  color: #f1c40f;
 }
 
 #name{
@@ -77,6 +122,7 @@ h1{
 .content{
   padding-top: 2em;
   color: black;
+  vertical-align: middle;
   margin-right: auto;
   margin-left: auto;
   width: 70%;
@@ -87,42 +133,58 @@ h1{
   margin-top: 3em;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
-  background-color: #f39c12;
+  background-color: #212121;
   position: absolute;
-  height: 30%;
-  margin-top: auto;
-  vertical-align: middle;
-  margin-bottom: auto;
+  height: 20vh;
   width: 100%;
   max-width: 900px;
+  bottom: 0px;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  -webkit-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+  -moz-box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+  box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.17);
+}
+
+#contactSlot{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 6vh;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .content p{
   text-align: justify;
-}
-.contactSlot{
-  display: table-cell;
   vertical-align: middle;
 }
+
 .someSlot{
-  width: 4em;
-  height: 4em;
-  position: static;
+  width: 10vw;
+  max-width: 100px;
+  height: 8vh;
   display: inline-block;
-  margin: auto;
+
 }
 .some{
-  width: 3em;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.some:hover{
+  opacity: 1;
 }
 
 
 #firstBlock{
-  background: url(images/keyboard.jpg) no-repeat center center; 
+  /*background: url(images/keyboard.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #212121;
 }
 #footer{
   margin-top: 2em;
@@ -130,5 +192,6 @@ h1{
   height: 50%;
   float: left;
   display: block;
+
 }
 
