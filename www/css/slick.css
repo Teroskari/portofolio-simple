@@ -27,8 +27,8 @@
     display: block;
     overflow: hidden;
 
-    margin-left: 5%;
-    margin-right: 5%;
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
     
     padding: 0;
 }
@@ -81,7 +81,6 @@
     float: left;
 
     height: 100%;
-    min-height: 1px;
 }
 [dir='rtl'] .slick-slide
 {

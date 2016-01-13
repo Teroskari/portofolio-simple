@@ -18,23 +18,24 @@ html{
   width: 100%;
   height: 100%;
   background-color: #2c3e50;
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAADBUlEQVQ4T02UXW8bRRSGnzOzX15nTWLHTVtR2mBFaaW0TaHccMMf4J9zgZCQUACRFNKUfNSOvbZ3vTs7g2acC+ZitVodvfN+nZWDk2+dKGFVNQzShOMvR5SLNf8s1lyXNUfjgh9fPubP6wWfO2HVGi7uFqzqFhHBH60UDrDOIfuv3rk0iVjXTfjwYlhQ9BI+zFZ8vC950s/44dVj6qZjYRV3Zc3F9YxNB8Z6GEekFNY6nLPI7vGp8wAKy/1qw26WcvpsyGVZc3a7QIzl/eSAYU+jYs0ft0vOr2YoHVG1hs46lBKPi8MhxfGpy5SQJRF12yHOcfJ0iFbw682cm3nF4X7BN4cj9oqUn/76zO+XU3pJQmU66tag/TCyBTx4/Z2r2xZrDErHWGt5uV/w1Sjnl9slV9OSVCvePR+z2484n645+zgnEuhEaIxFi2epaDuLHL7/3q2qCp32mZULnHXBt+OnQ2b1hou7JferikeDnCejAdW65ny6ouu6EEprHbECJSq8B4amqXn+9RvqtuG3s5/Z6fU5KHoUaczf8yWLypBEinE/pRdHXJUVdWMeZIIPWyuhcyAD72Gs6EzHaPyMy08f6JyjlyYkWmiso9p0wYp+ohkVGWXdMlttEF8Xz0rYBoMg/aO3rpfEiDPhVh0nwQtjbfAlCv2Czg9jA2CsNJ9mJcb37v9d9OD50VsX+ZQjhfM+GIPxANYSicY4C853jMDyizxhsNPj31lJEzRuy63ChSC9yWuntSCi8EyNaalNF0bybFulxtdJfC2EVAuP9na4K1cs100A9NI9IL7YmZccqdB6i9BPvC9QbhqKLCYWzbTahCK3pg3btJenOBRlVYVL/PGEvAxJJicu04ooili2LbnW7O3kgQG2I49SlqZFi8Lz3hgT7IlVxLptA0O/gP7hVUg6OXE+oSyKwj76VRr2s2DNzbIi1hpnO+I4Dux8cH4m1l6VfbBiCxiYppM3zg/mSUwea9bNBiyMB33mmzYAOPGJuO2KOaiNxT6IDYLF/xy24P8BBlKhNPBM37sAAAAASUVORK5CYII=");
 }
 
 #container{
   width: 100%;
-  height: 96%;
+  height: 100vh;
   position: static;
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #f1c40f;
+  background-color: #008DD2;
   -webkit-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.35);
   -moz-box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.35);
   box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.35);
 }
 
 .projectPart{
-  margin-top: 10%;  
   width: 50%;
   float: left;
 }
@@ -42,13 +43,14 @@ html{
 
 .projects{
   width: 90%;
-  height: 100%;
+  height: 40vh;
   margin:auto;
 }
 
 .block{
   width: 100%;
-  height: 50%;
+  height: 45%;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   position: static;
@@ -61,14 +63,20 @@ html{
 #project1{
   margin-left:auto;
   margin-right: auto;
-  width: 60%;
+  width: 100%;
   position: static;
 }
 #project2{
-  background-color: blue;
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
+  position: static;
 }
 #project3{
-  background-color: green;
+  margin-left:auto;
+  margin-right: auto;
+  width: 100%;
+  position: static;
 }
 .navi{
   position: fixed;
@@ -84,18 +92,14 @@ html{
   font-size: 1.1em;
 }
 p{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 1.4em;
 }
 
 .projectContainer p{
   font-size: 1em;
-  color: white;
-  margin: 20px;
-  font-family: 'PT Sans', sans-serif;
-  /*width: 100%;
-  height: 40vh;
-  margin-top: 20px;*/
+  color: #212121;
+  font-family: 'Muli', sans-serif;
 }
 
 .navilink a{
@@ -103,21 +107,15 @@ p{
 }
 
 h1{
-  font-family: 'Arvo', serif;
+  font-family: 'Ovo', serif;
   text-align: center;
   color: yellow;
 }
 
-.projectContainer h1{
-  font-family: 'Arvo', serif;
-  margin-left: 20px;
+.projectContainer h2{
+  font-family: 'Ovo', serif;
   text-align: left;
-  color: #f1c40f;
-}
-
-#name{
-  font-size: 1.1em;
-  color: white;
+  color: #212121;
 }
 
 .content{
@@ -136,7 +134,7 @@ h1{
   margin-left: auto;
   background-color: #212121;
   position: absolute;
-  height: 20vh;
+  height: 14vh;
   width: 100%;
   max-width: 900px;
   bottom: 0px;
@@ -151,7 +149,7 @@ h1{
 #contactSlot{
   display: inline-block;
   vertical-align: middle;
-  margin-top: 6vh;
+  margin-top: 3vh;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -187,6 +185,15 @@ h1{
   background-size: cover;*/
   background-color: #212121;
 }
+
+#firstBlock p{
+  font-size: 1em;
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 #footer{
   margin-top: 2em;
   width: 100%;
@@ -196,3 +203,31 @@ h1{
 
 }
 
+#profile{
+  width: 20%;
+  border-radius: 50%;
+  margin: 2em;
+  margin-top: 10vh;
+}
+
+#name{
+  color: #008DD2;
+}
+
+.projectPart a{
+  opacity: 0.7;
+  color: white;
+}
+
+.projectPart a:hover{
+  opacity: 1;
+}
+
+.projectPart h2{
+  margin-top: 0;
+  text-align: center;
+}
+
+.projectPart .tech{
+  text-align: center;
+}

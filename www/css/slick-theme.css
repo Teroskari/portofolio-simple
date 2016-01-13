@@ -123,13 +123,13 @@
 /* Dots */
 .slick-slider
 {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    /*bottom: -45px;*/
 
     display: inline-block;
     /*background-color: yellow;*/
