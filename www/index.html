@@ -3,6 +3,8 @@
 <head>
   <title>Julius Rajala</title>
   <meta charset="UTF-8" />
+  <link rel="icon" href="images/portrait.jpg" type="image/png">
+  <link rel="shortcut icon" href="images/portrait.jpg" type="image/png">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -10,92 +12,114 @@
   <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Ovo|Muli' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 </head>
 <body>
-<div id="all">
   <div id = "container">
-    <div id="firstBlock" class="block">
-        <img src="images/julius.jpg" id="profile"/>
+    <div class="block">
+        <img src="images/portrait.jpg" id="profile"/>
 
         <p>Hey! I'm <span id="name">Julius Rajala</span>. This page displays a few of my software projects. You'll find my contact info at the end of this page.</p>
       
     </div>
-    <div id = "footer">
+    <div id = "bottom">
       <div class = "content">
-
         <div class="projects">
-        <div class="projectContainer" id="project1">
-          <div class="projectPart">
-            <!-- <img src="images/bike.jpg" style="width:100%;"/> -->
-          </div>
-          <div class="projectPart">
-            <h2>Buses of Turku</h2>
-            <p class = "tech"><a href="#">android</a>, <a href="#">node</a>, <a href="#">open data</a></p>
-            <p>This was a solo project I started working on late autumn 2016. I built a NodeJS rest-api to serve the city of Turku's open bus data for an android application.</p>
-          </div>
-          <div>
-          
-          </div>
-        </div>
-        <div class="projectContainer" id="project2">
+            <div class="projectContainer">
+              <div class="projectPart">
+                <h2>Buses of Turku</h2>
+                <p class = "tech"><a href="#">android</a>, <a href="#">node</a>, <a href="#">open data</a></p>
+                <p>This was a solo project I started working on late autumn of 2015. An android application that visualizes the locations of local bus-traffic on a google-maps element.</p>
 
-        <div class="projectPart">
-            <img src="images/bike.jpg" style="width:100%; padding:1em;"/>
-          </div>
-        <div class="projectPart">
-            <h2>Keep-A-Head</h2>
-            <p class = "tech"><a href="#">android</a>, <a href="#">node</a>, <a href="#">thingsee</a></p>
-            <p>A project built during a December 2015 hackathon focused on IoT solutions. Our team crafted a smart-helmet companion application using the data of a Thingsee One.</p>
-          </div>
+                <p>
+                  The application receives its data from a NodeJS server that in turn follows the open data provided by the city of Turku.
+                </p>
+              </div>
+              <div class="projectPart">
+                <span class="helper"></span>
+                <a href="images/bussit.jpg" target="_Blank"><img src="images/bussit.jpg" class="techImage"/></a>
+              </div>
+            </div>
+            <div class="projectContainer">
 
-        </div>
-        <div class="projectContainer" id="project3">
-          
-        <div class="projectPart">
-            <h2>PL 2015</h2>
-            <p class = "tech"><a href="#">meteor</a>, <a href="#">phonegap</a>, html, css, js</p>
-            <p>This project was a second screen application for a large student event. The app was built with MeteorJS and was released for both android and iOS platforms.</p>
-          </div>
+              <div class="projectPart">
+                <span class="helper"></span>
+                  <a href="images/keepahead.jpg" target="_Blank"><img src="images/keepahead.jpg" class="techImage" /></a>
+                </div>
+              <div class="projectPart">
+                  <h2>Keep-A-Head</h2>
+                  <p class = "tech"><a href="#">android</a>, <a href="#">node</a>, <a href="#">thingsee</a></p>
+                  <p>A project built during a December 2015 hackathon focused on IoT solutions. Our team crafted a smart-helmet companion application using the data of a Thingsee One. The application provides weather and speed data as well as logs possible crashes. The idea was to automatically call an ambulance after a crash should certain conditions be met.</p>
 
-          <div class="projectPart">
-            <img src="images/bike.jpg" style="width:100%; padding:1em;"/>
-          </div>
-        </div>
-      </div>
-      </div>
+                  <p>
+                    We built a Node rest-api using Hapi to provide data to the application. The Thingsee One was linked to deliver data to our server using Thingsee's Web Api.
+                  </p>
+              </div>
+            </div>
+          <div class="projectContainer">
+              
+            <div class="projectPart">
+              <h2>PL 2015</h2>
+              <p class = "tech"><a href="#">meteor</a>, <a href="#">phonegap</a>, html, css, js</p>
+              <p>This project was a second screen application for a large student event. The app was built with MeteorJS and was released for both android and iOS platforms. The platform was still in beta and we encountered quite a few problems. In hindsight, native applications would have been easier.</p>
+              <p>While partaking in development, I also co-ordinated the project with the people from the Pikkulaskiainen event's organizers and handled interaction with the client.
+              </p>
+            </div>
 
+            <div class="projectPart">
+                <span class="helper"></span>
+              <a href="images/pl15.jpg" target="_Blank"><img src="images/pl15.jpg" class="techImage" /></a>
+            </div>
+          </div>
+          <div class="projectContainer">
+
+              <div class="projectPart">
+                <span class="helper"></span>
+
+                  <a href="images/kroniikat.jpg" target="_Blank"><img src="images/kroniikat.jpg" class="techImage"/></a>
+                </div>
+              <div class="projectPart">
+                  <h2>Kroniikkamaatti</h2>
+                  <p class = "tech"><a href="#">react</a>, <a href="#">node</a>, <a href="#">firebase</a>, <a href="#">heroku</a></p>
+                  <p>I've been actively involved in my student organization since I began my studies. The organization paper desired a web app allow for first year students to write nice things about each other for a sping 2016 release. I volunteered to built such an application.</p>
+
+                  <p>
+                    I settled on ReactJS to get more comfortable with the framework. I settled on Firebase as a simple back-end that works for this specific project. The project was then hosted on heroku for access.
+                  </p>
+              </div>
+            </div><!-- .projectContainer -->
+        </div><!-- .Projects -->
+      </div><!-- .Content -->
       <div id="contacts">
         <div id="contactSlot">
 
           <div class="someSlot">
             <a href="https://fi.linkedin.com/in/juliusrajala">
-              <img class="some" src="/images/icons/lin.png">
+              <img class="some" src="images/icons/lin.png">
             </a>
           </div>
         
           <div class="someSlot">
             <a href="http://github.com/juliusrajala">
-              <img class="some" src="/images/icons/git.png">
+              <img class="some" src="images/icons/git.png">
             </a>
           </div>
         
           <div class="someSlot">
             <a href="http://twitter.com/rajalajulius/">
-              <img class="some" src="/images/icons/tweet.png">
+              <img class="some" src="images/icons/tweet.png">
             </a>
           </div>
         
           <div class="someSlot">
-            <a href="juliusrajala@gmail.com">
-              <img class="some" src="/images/icons/mail.png">
+            <a href="mailto:juliusrajala@gmail.com">
+              <img class="some" src="images/icons/mail.png">
             </a>
           </div>
         </div> <!-- contactSlot -->
       </div> <!-- contacts -->
-    </div> <!-- footer -->
+    </div><!-- #bottom -->
   </div> <!-- container -->
-</div> <!-- all -->
 
 <!-- Scripts below -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
